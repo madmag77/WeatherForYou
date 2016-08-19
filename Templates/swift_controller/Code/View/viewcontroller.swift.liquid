@@ -1,0 +1,57 @@
+import UIKit
+import SnapKit
+
+class {{ prefix }}{{ module_info.name }}ViewController : UIViewController {
+
+    var presenter : {{ prefix }}{{ module_info.name }}Presenter?
+    var interactor: {{ prefix }}{{ module_info.name }}Interactor?
+    var text:UILabel?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        interactor = {{ prefix }}{{ module_info.name }}Interactor()
+        presenter = {{ prefix }}{{ module_info.name }}Presenter(view:self, interactor:interactor!)
+        interactor!.presenter = presenter
+        createElements() 
+    }
+
+    func createElements() {
+        text = ViewCreator.createLabel(textSize: 20  * CGFloat(Ratio.koefX()))
+        text!.text = "text"
+        addSubView(text!)
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        NavigationBarCreator.setupNavigationController(navigationController: self.navigationController!, titleItem: "{{ module_info.name }}")
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "icon_menu"), style: .Done, target: presenter, action: #selector({{ prefix }}{{ module_info.name }}Presenter.onClickLeftBtn))
+        
+        presenter!.viewWillAppear()
+    }
+    
+    func addSubView(view:UIView) {
+        self.view.addSubview(view)
+    }
+
+   override func updateViewConstraints() {
+           text!.snp_makeConstraints{(make)->Void in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(miniText).offset(-40  * CGFloat(Ratio.koefY()))
+        }
+
+        super.updateViewConstraints();
+    }
+    
+   override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+    
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+
+}

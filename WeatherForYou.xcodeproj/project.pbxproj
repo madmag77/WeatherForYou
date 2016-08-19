@@ -7,16 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3492EF7260252A8CD478AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D8AC9C3FE7E208FE65A6DE /* libPods.a */; };
+		3DD46FFC9D92D82F04D2B253 /* WFYChooseCityViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F12B037840DBB3A99D9631 /* WFYChooseCityViewControllerTests.m */; };
+		4171A266C4B5F840E99B8E19 /* WFYCityWeatherRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D7D89633B64C15B207D50D /* WFYCityWeatherRouterTests.m */; };
+		499148E76841927A990331BD /* WFYChooseCityPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F867A528DF98D91FE884DBC2 /* WFYChooseCityPresenterTests.m */; };
+		52BA1B0A94F46A11740517AD /* WFYChooseCityRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A086B5329C78AE955280478C /* WFYChooseCityRouter.m */; };
+		56651914BA062432203C3100 /* WFYChooseCityPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2AE44091C493C160258C1A /* WFYChooseCityPresenter.m */; };
+		6533E9A5BF73D53D7B5EF1E3 /* WFYChooseCityRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4838BFFFA03711B46C152C3D /* WFYChooseCityRouterTests.m */; };
+		653C425B50BA6C374D2C2F52 /* WFYChooseCityInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F602DBB02E9864D20A612E1 /* WFYChooseCityInteractorTests.m */; };
+		84A25F037E180C8D0B3E67B9 /* WFYCityWeatherAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBBC08D340CA17DD4C610C /* WFYCityWeatherAssemblyTests.m */; };
+		85CAE7ED4D5AA3ECE1EAAF6B /* WFYCityWeatherViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24CACF9DC67C0AF62BE40CB /* WFYCityWeatherViewControllerTests.m */; };
+		97F0165D23B660A06309F595 /* WFYChooseCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D6D25FCA85CAB75D3807ED /* WFYChooseCityViewController.m */; };
+		A5AA724743D327499B94046C /* WFYCityWeatherPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EA90721D35E940AB6DA86 /* WFYCityWeatherPresenterTests.m */; };
+		B496ED3A328A8F11B22CFBC7 /* WFYChooseCityCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FCB20B6FCF68DDA164609 /* WFYChooseCityCellPresenter.m */; };
+		CC73E385E81F51AAA5056CFF /* WFYChooseCityInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42662DC2207BA138E9968CB5 /* WFYChooseCityInteractor.m */; };
+		DC505D31C50FA159A3369F59 /* WFYChooseCityAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC677344E3B96378D0515FA /* WFYChooseCityAssembly.m */; };
+		E1AF1D1C587509A9645E3533 /* WFYCityWeatherInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1970236CD2068337A8DD09 /* WFYCityWeatherInteractorTests.m */; };
+		E211006E2A7A92B932D0F799 /* WFYChooseCityAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CFB75A9E76A6D24301E592 /* WFYChooseCityAssemblyTests.m */; };
 		EB44F7861D55953E000B0885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7851D55953E000B0885 /* main.m */; };
 		EB44F7891D55953E000B0885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7881D55953E000B0885 /* AppDelegate.m */; };
 		EB44F78C1D55953E000B0885 /* WeatherForYou.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB44F78A1D55953E000B0885 /* WeatherForYou.xcdatamodeld */; };
-		EB44F78F1D55953E000B0885 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F78E1D55953E000B0885 /* MasterViewController.m */; };
-		EB44F7921D55953E000B0885 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7911D55953E000B0885 /* DetailViewController.m */; };
 		EB44F7951D55953E000B0885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB44F7931D55953E000B0885 /* Main.storyboard */; };
 		EB44F7971D55953E000B0885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB44F7961D55953E000B0885 /* Assets.xcassets */; };
 		EB44F79A1D55953E000B0885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB44F7981D55953E000B0885 /* LaunchScreen.storyboard */; };
 		EB44F7A51D55953E000B0885 /* WeatherForYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7A41D55953E000B0885 /* WeatherForYouTests.m */; };
 		EB44F7B01D55953E000B0885 /* WeatherForYouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7AF1D55953E000B0885 /* WeatherForYouUITests.m */; };
+		EB44F7FC1D559A26000B0885 /* BaseModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7BF1D559A26000B0885 /* BaseModuleAssembly.m */; };
+		EB44F7FD1D559A26000B0885 /* BasePresenterAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7C11D559A26000B0885 /* BasePresenterAssembly.m */; };
+		EB44F7FE1D559A26000B0885 /* ServicesAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7C31D559A26000B0885 /* ServicesAssembly.m */; };
+		EB44F7FF1D559A26000B0885 /* AppErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7C61D559A26000B0885 /* AppErrors.m */; };
+		EB44F8001D559A26000B0885 /* appSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7C81D559A26000B0885 /* appSettings.m */; };
+		EB44F8011D559A26000B0885 /* ARCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7CA1D559A26000B0885 /* ARCommon.m */; };
+		EB44F8021D559A26000B0885 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7CC1D559A26000B0885 /* Functions.m */; };
+		EB44F8031D559A26000B0885 /* localizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7CE1D559A26000B0885 /* localizationService.m */; };
+		EB44F8041D559A26000B0885 /* logService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7D01D559A26000B0885 /* logService.m */; };
+		EB44F8051D559A26000B0885 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7D41D559A26000B0885 /* EXTScope.m */; };
+		EB44F8061D559A26000B0885 /* popupMessageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7D71D559A26000B0885 /* popupMessageHelper.m */; };
+		EB44F8081D559A26000B0885 /* UIFabric.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7DD1D559A26000B0885 /* UIFabric.m */; };
+		EB44F8091D559A26000B0885 /* waitBarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7DF1D559A26000B0885 /* waitBarHelper.m */; };
+		EB44F80A1D559A26000B0885 /* WFYApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7E21D559A26000B0885 /* WFYApiHelper.m */; };
+		EB44F8121D559C13000B0885 /* ApplycationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8111D559C13000B0885 /* ApplycationAssembly.m */; };
+		EB44F8161D559F66000B0885 /* BasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8151D559F66000B0885 /* BasePresenter.m */; };
+		EB44F8191D55A2F8000B0885 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB44F8171D55A2F8000B0885 /* Localizable.strings */; };
+		EB44F81D1D55A300000B0885 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB44F81B1D55A300000B0885 /* Localizable.strings */; };
+		EB44F8201D55A6D3000B0885 /* GeoLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F81F1D55A6D3000B0885 /* GeoLocationService.m */; };
+		EB44F8221D55B127000B0885 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB44F8211D55B127000B0885 /* CoreLocation.framework */; };
+		EB44F8251D55B7D8000B0885 /* WheatherDBService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8241D55B7D8000B0885 /* WheatherDBService.m */; };
+		EB44F8281D55B911000B0885 /* WeatherDeamon.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8271D55B911000B0885 /* WeatherDeamon.m */; };
+		EB44F8351D55C2A7000B0885 /* MeasurementPoint+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F82A1D55C2A7000B0885 /* MeasurementPoint+CoreDataProperties.m */; };
+		EB44F8361D55C2A7000B0885 /* MeasurementPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F82C1D55C2A7000B0885 /* MeasurementPoint.m */; };
+		EB44F8371D55C2A7000B0885 /* City+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F82E1D55C2A7000B0885 /* City+CoreDataProperties.m */; };
+		EB44F8381D55C2A7000B0885 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8301D55C2A7000B0885 /* City.m */; };
+		EB44F8511D55CFF7000B0885 /* WFYCityWeatherAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F83E1D55CFF7000B0885 /* WFYCityWeatherAssembly.m */; };
+		EB44F8521D55CFF7000B0885 /* WFYCityWeatherInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8411D55CFF7000B0885 /* WFYCityWeatherInteractor.m */; };
+		EB44F8531D55CFF7000B0885 /* WFYCityWeatherPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8471D55CFF7000B0885 /* WFYCityWeatherPresenter.m */; };
+		EB44F8541D55CFF7000B0885 /* WFYCityWeatherRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F84A1D55CFF7000B0885 /* WFYCityWeatherRouter.m */; };
+		EB44F8551D55CFF7000B0885 /* WFYCityWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F84E1D55CFF7000B0885 /* WFYCityWeatherViewController.m */; };
+		EB44F8581D55E5C5000B0885 /* WeatherDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8571D55E5C5000B0885 /* WeatherDataService.m */; };
+		EB44F85E1D560325000B0885 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F85D1D560325000B0885 /* NSDate+Utilities.m */; };
+		EB44F8621D560BE1000B0885 /* WFYMeasurementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8611D560BE1000B0885 /* WFYMeasurementCell.m */; };
+		EB44F8651D560BF1000B0885 /* WFYMeasurementCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8641D560BF1000B0885 /* WFYMeasurementCellPresenter.m */; };
+		EB44F86A1D564777000B0885 /* CurrentWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8671D564777000B0885 /* CurrentWeather.m */; };
+		EB44F86B1D564777000B0885 /* CurrentWeather+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F8691D564777000B0885 /* CurrentWeather+CoreDataProperties.m */; };
+		EB44F86E1D5664BD000B0885 /* ImageStorageService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F86D1D5664BD000B0885 /* ImageStorageService.m */; };
+		EF7818DD83E838714B3C0EE6 /* libPods-WeatherForYouTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DAAB36ACA09305B58FB116 /* libPods-WeatherForYouTests.a */; };
+		F6432BA30002ADA2854CEAC2 /* WFYChooseCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 583DC9CDADBF267F9FA77935 /* WFYChooseCityTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +92,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F602DBB02E9864D20A612E1 /* WFYChooseCityInteractorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityInteractorTests.m; sourceTree = "<group>"; };
+		176EA90721D35E940AB6DA86 /* WFYCityWeatherPresenterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherPresenterTests.m; sourceTree = "<group>"; };
+		1D2AE44091C493C160258C1A /* WFYChooseCityPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityPresenter.m; sourceTree = "<group>"; };
+		1E7C9D0DB97C77AF94E93C26 /* WFYCityWeatherAssembly_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherAssembly_Testable.h; sourceTree = "<group>"; };
+		2BC677344E3B96378D0515FA /* WFYChooseCityAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityAssembly.m; sourceTree = "<group>"; };
+		41D7D89633B64C15B207D50D /* WFYCityWeatherRouterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherRouterTests.m; sourceTree = "<group>"; };
+		42662DC2207BA138E9968CB5 /* WFYChooseCityInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityInteractor.m; sourceTree = "<group>"; };
+		4317C6717684D9EB2097A567 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4838BFFFA03711B46C152C3D /* WFYChooseCityRouterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityRouterTests.m; sourceTree = "<group>"; };
+		493BBC5BAFDD27B45B2F0633 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		583DC9CDADBF267F9FA77935 /* WFYChooseCityTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WFYChooseCityTableViewCell.m; path = ../modules/WFYChooseCity/View/cells/WFYChooseCityTableViewCell.m; sourceTree = "<group>"; };
+		5FBB406EBB0D5B8A89BB9958 /* WFYChooseCityAssembly_Testable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityAssembly_Testable.h; sourceTree = "<group>"; };
+		6ECE3CECFFDD5AA0C1136859 /* WFYChooseCityViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityViewInput.h; sourceTree = "<group>"; };
+		6F22ED702E4950AD1AE8D86D /* WFYChooseCityRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityRouter.h; sourceTree = "<group>"; };
+		71BBBC08D340CA17DD4C610C /* WFYCityWeatherAssemblyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherAssemblyTests.m; sourceTree = "<group>"; };
+		7E060E9AB30002B6B691AEF6 /* WFYChooseCityViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityViewController.h; sourceTree = "<group>"; };
+		86D6D25FCA85CAB75D3807ED /* WFYChooseCityViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityViewController.m; sourceTree = "<group>"; };
+		8831E82E3BE9832B6474E79A /* WFYChooseCityInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityInteractorOutput.h; sourceTree = "<group>"; };
+		8A1970236CD2068337A8DD09 /* WFYCityWeatherInteractorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherInteractorTests.m; sourceTree = "<group>"; };
+		8AEFD4C0B8298B74B30AE2F9 /* WFYChooseCityViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityViewOutput.h; sourceTree = "<group>"; };
+		9195DE6860FC1510A4D07310 /* WFYChooseCityAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityAssembly.h; sourceTree = "<group>"; };
+		94DAAB36ACA09305B58FB116 /* libPods-WeatherForYouTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherForYouTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7F4F870FA8077112FC700D /* WFYChooseCityPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityPresenter.h; sourceTree = "<group>"; };
+		A086B5329C78AE955280478C /* WFYChooseCityRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityRouter.m; sourceTree = "<group>"; };
+		A8BD51DB3B8203F53972DE2C /* WFYChooseCityInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityInteractor.h; sourceTree = "<group>"; };
+		AAECA2EE5B1D81D10DC3082D /* Pods-WeatherForYouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForYouTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherForYouTests/Pods-WeatherForYouTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B212F98EB475F82AE5549763 /* WFYChooseCityCellPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WFYChooseCityCellPresenter.h; path = ../modules/WFYChooseCity/Presenter/cells/WFYChooseCityCellPresenter.h; sourceTree = "<group>"; };
+		BA7279CF42FCF8FB554F3CBE /* WFYChooseCityTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WFYChooseCityTableViewCell.h; path = ../modules/WFYChooseCity/View/cells/WFYChooseCityTableViewCell.h; sourceTree = "<group>"; };
+		C5F12B037840DBB3A99D9631 /* WFYChooseCityViewControllerTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityViewControllerTests.m; sourceTree = "<group>"; };
+		C6D8AC9C3FE7E208FE65A6DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7C95FCDB40DB2CE4CF01A3 /* WFYChooseCityRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityRouterInput.h; sourceTree = "<group>"; };
+		E24CACF9DC67C0AF62BE40CB /* WFYCityWeatherViewControllerTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherViewControllerTests.m; sourceTree = "<group>"; };
 		EB44F7811D55953E000B0885 /* WeatherForYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB44F7851D55953E000B0885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB44F7871D55953E000B0885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB44F7881D55953E000B0885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB44F78B1D55953E000B0885 /* WeatherForYou.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherForYou.xcdatamodel; sourceTree = "<group>"; };
-		EB44F78D1D55953E000B0885 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		EB44F78E1D55953E000B0885 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		EB44F7901D55953E000B0885 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		EB44F7911D55953E000B0885 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		EB44F7941D55953E000B0885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB44F7961D55953E000B0885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB44F7991D55953E000B0885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +139,95 @@
 		EB44F7AB1D55953E000B0885 /* WeatherForYouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForYouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB44F7AF1D55953E000B0885 /* WeatherForYouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherForYouUITests.m; sourceTree = "<group>"; };
 		EB44F7B11D55953E000B0885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB44F7BE1D559A26000B0885 /* BaseModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModuleAssembly.h; sourceTree = "<group>"; };
+		EB44F7BF1D559A26000B0885 /* BaseModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModuleAssembly.m; sourceTree = "<group>"; };
+		EB44F7C01D559A26000B0885 /* BasePresenterAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePresenterAssembly.h; sourceTree = "<group>"; };
+		EB44F7C11D559A26000B0885 /* BasePresenterAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresenterAssembly.m; sourceTree = "<group>"; };
+		EB44F7C21D559A26000B0885 /* ServicesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesAssembly.h; sourceTree = "<group>"; };
+		EB44F7C31D559A26000B0885 /* ServicesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesAssembly.m; sourceTree = "<group>"; };
+		EB44F7C51D559A26000B0885 /* AppErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppErrors.h; sourceTree = "<group>"; };
+		EB44F7C61D559A26000B0885 /* AppErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppErrors.m; sourceTree = "<group>"; };
+		EB44F7C71D559A26000B0885 /* appSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appSettings.h; sourceTree = "<group>"; };
+		EB44F7C81D559A26000B0885 /* appSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appSettings.m; sourceTree = "<group>"; };
+		EB44F7C91D559A26000B0885 /* ARCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCommon.h; sourceTree = "<group>"; };
+		EB44F7CA1D559A26000B0885 /* ARCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCommon.m; sourceTree = "<group>"; };
+		EB44F7CB1D559A26000B0885 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		EB44F7CC1D559A26000B0885 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		EB44F7CD1D559A26000B0885 /* localizationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localizationService.h; sourceTree = "<group>"; };
+		EB44F7CE1D559A26000B0885 /* localizationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = localizationService.m; sourceTree = "<group>"; };
+		EB44F7CF1D559A26000B0885 /* logService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logService.h; sourceTree = "<group>"; };
+		EB44F7D01D559A26000B0885 /* logService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logService.m; sourceTree = "<group>"; };
+		EB44F7D31D559A26000B0885 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		EB44F7D41D559A26000B0885 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		EB44F7D51D559A26000B0885 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		EB44F7D61D559A26000B0885 /* popupMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popupMessageHelper.h; sourceTree = "<group>"; };
+		EB44F7D71D559A26000B0885 /* popupMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popupMessageHelper.m; sourceTree = "<group>"; };
+		EB44F7D81D559A26000B0885 /* popupMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popupMessageProtocol.h; sourceTree = "<group>"; };
+		EB44F7DC1D559A26000B0885 /* UIFabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFabric.h; sourceTree = "<group>"; };
+		EB44F7DD1D559A26000B0885 /* UIFabric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFabric.m; sourceTree = "<group>"; };
+		EB44F7DE1D559A26000B0885 /* waitBarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitBarHelper.h; sourceTree = "<group>"; };
+		EB44F7DF1D559A26000B0885 /* waitBarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waitBarHelper.m; sourceTree = "<group>"; };
+		EB44F7E01D559A26000B0885 /* waitBarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitBarProtocol.h; sourceTree = "<group>"; };
+		EB44F7E11D559A26000B0885 /* WFYApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYApiHelper.h; sourceTree = "<group>"; };
+		EB44F7E21D559A26000B0885 /* WFYApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYApiHelper.m; sourceTree = "<group>"; };
+		EB44F8101D559C13000B0885 /* ApplycationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplycationAssembly.h; path = WeatherForYou/ApplycationAssembly.h; sourceTree = SOURCE_ROOT; };
+		EB44F8111D559C13000B0885 /* ApplycationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplycationAssembly.m; path = WeatherForYou/ApplycationAssembly.m; sourceTree = SOURCE_ROOT; };
+		EB44F8131D559CAD000B0885 /* WeatherForYou-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherForYou-Prefix.pch"; sourceTree = "<group>"; };
+		EB44F8141D559F66000B0885 /* BasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePresenter.h; sourceTree = "<group>"; };
+		EB44F8151D559F66000B0885 /* BasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresenter.m; sourceTree = "<group>"; };
+		EB44F8181D55A2F8000B0885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EB44F81C1D55A300000B0885 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
+		EB44F81E1D55A6D3000B0885 /* GeoLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoLocationService.h; sourceTree = "<group>"; };
+		EB44F81F1D55A6D3000B0885 /* GeoLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoLocationService.m; sourceTree = "<group>"; };
+		EB44F8211D55B127000B0885 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB44F8231D55B7D8000B0885 /* WheatherDBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheatherDBService.h; sourceTree = "<group>"; };
+		EB44F8241D55B7D8000B0885 /* WheatherDBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheatherDBService.m; sourceTree = "<group>"; };
+		EB44F8261D55B911000B0885 /* WeatherDeamon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDeamon.h; sourceTree = "<group>"; };
+		EB44F8271D55B911000B0885 /* WeatherDeamon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDeamon.m; sourceTree = "<group>"; };
+		EB44F8291D55C2A6000B0885 /* MeasurementPoint+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MeasurementPoint+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EB44F82A1D55C2A7000B0885 /* MeasurementPoint+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MeasurementPoint+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EB44F82B1D55C2A7000B0885 /* MeasurementPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementPoint.h; sourceTree = "<group>"; };
+		EB44F82C1D55C2A7000B0885 /* MeasurementPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementPoint.m; sourceTree = "<group>"; };
+		EB44F82D1D55C2A7000B0885 /* City+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EB44F82E1D55C2A7000B0885 /* City+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EB44F82F1D55C2A7000B0885 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		EB44F8301D55C2A7000B0885 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		EB44F83D1D55CFF7000B0885 /* WFYCityWeatherAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherAssembly.h; sourceTree = "<group>"; };
+		EB44F83E1D55CFF7000B0885 /* WFYCityWeatherAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherAssembly.m; sourceTree = "<group>"; };
+		EB44F8401D55CFF7000B0885 /* WFYCityWeatherInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherInteractor.h; sourceTree = "<group>"; };
+		EB44F8411D55CFF7000B0885 /* WFYCityWeatherInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherInteractor.m; sourceTree = "<group>"; };
+		EB44F8421D55CFF7000B0885 /* WFYCityWeatherInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherInteractorInput.h; sourceTree = "<group>"; };
+		EB44F8431D55CFF7000B0885 /* WFYCityWeatherInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherInteractorOutput.h; sourceTree = "<group>"; };
+		EB44F8451D55CFF7000B0885 /* WFYCityWeatherModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherModuleInput.h; sourceTree = "<group>"; };
+		EB44F8461D55CFF7000B0885 /* WFYCityWeatherPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherPresenter.h; sourceTree = "<group>"; };
+		EB44F8471D55CFF7000B0885 /* WFYCityWeatherPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherPresenter.m; sourceTree = "<group>"; };
+		EB44F8491D55CFF7000B0885 /* WFYCityWeatherRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherRouter.h; sourceTree = "<group>"; };
+		EB44F84A1D55CFF7000B0885 /* WFYCityWeatherRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherRouter.m; sourceTree = "<group>"; };
+		EB44F84B1D55CFF7000B0885 /* WFYCityWeatherRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherRouterInput.h; sourceTree = "<group>"; };
+		EB44F84D1D55CFF7000B0885 /* WFYCityWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherViewController.h; sourceTree = "<group>"; };
+		EB44F84E1D55CFF7000B0885 /* WFYCityWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYCityWeatherViewController.m; sourceTree = "<group>"; };
+		EB44F84F1D55CFF7000B0885 /* WFYCityWeatherViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherViewInput.h; sourceTree = "<group>"; };
+		EB44F8501D55CFF7000B0885 /* WFYCityWeatherViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYCityWeatherViewOutput.h; sourceTree = "<group>"; };
+		EB44F8561D55E5C5000B0885 /* WeatherDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDataService.h; sourceTree = "<group>"; };
+		EB44F8571D55E5C5000B0885 /* WeatherDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataService.m; sourceTree = "<group>"; };
+		EB44F85C1D560325000B0885 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "WeatherForYou/Helpers/NSDate+Utilities.h"; sourceTree = SOURCE_ROOT; };
+		EB44F85D1D560325000B0885 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "WeatherForYou/Helpers/NSDate+Utilities.m"; sourceTree = SOURCE_ROOT; };
+		EB44F8601D560BE1000B0885 /* WFYMeasurementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYMeasurementCell.h; sourceTree = "<group>"; };
+		EB44F8611D560BE1000B0885 /* WFYMeasurementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYMeasurementCell.m; sourceTree = "<group>"; };
+		EB44F8631D560BF1000B0885 /* WFYMeasurementCellPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFYMeasurementCellPresenter.h; sourceTree = "<group>"; };
+		EB44F8641D560BF1000B0885 /* WFYMeasurementCellPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFYMeasurementCellPresenter.m; sourceTree = "<group>"; };
+		EB44F8661D564777000B0885 /* CurrentWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentWeather.h; sourceTree = "<group>"; };
+		EB44F8671D564777000B0885 /* CurrentWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentWeather.m; sourceTree = "<group>"; };
+		EB44F8681D564777000B0885 /* CurrentWeather+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CurrentWeather+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EB44F8691D564777000B0885 /* CurrentWeather+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CurrentWeather+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EB44F86C1D5664BD000B0885 /* ImageStorageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStorageService.h; sourceTree = "<group>"; };
+		EB44F86D1D5664BD000B0885 /* ImageStorageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStorageService.m; sourceTree = "<group>"; };
+		EF3FCB20B6FCF68DDA164609 /* WFYChooseCityCellPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WFYChooseCityCellPresenter.m; path = ../modules/WFYChooseCity/Presenter/cells/WFYChooseCityCellPresenter.m; sourceTree = "<group>"; };
+		F07DABB32AB6F1B482DAC1FF /* WFYChooseCityModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityModuleInput.h; sourceTree = "<group>"; };
+		F08B600736D51539BF38DD29 /* Pods-WeatherForYouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForYouTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherForYouTests/Pods-WeatherForYouTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5CFB75A9E76A6D24301E592 /* WFYChooseCityAssemblyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityAssemblyTests.m; sourceTree = "<group>"; };
+		F867A528DF98D91FE884DBC2 /* WFYChooseCityPresenterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFYChooseCityPresenterTests.m; sourceTree = "<group>"; };
+		FDA8D2AAE55B42FC21354D9B /* WFYChooseCityInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFYChooseCityInteractorInput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +235,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB44F8221D55B127000B0885 /* CoreLocation.framework in Frameworks */,
+				3B3492EF7260252A8CD478AF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7818DD83E838714B3C0EE6 /* libPods-WeatherForYouTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +258,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A4B44610F7F828B9CCDBF0 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9195DE6860FC1510A4D07310 /* WFYChooseCityAssembly.h */,
+				2BC677344E3B96378D0515FA /* WFYChooseCityAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0FCC54F038005EC9E7F065C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E24CACF9DC67C0AF62BE40CB /* WFYCityWeatherViewControllerTests.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B618CAD7C7BA0AD79345116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5F12B037840DBB3A99D9631 /* WFYChooseCityViewControllerTests.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FDC05D4572B08FD5BC98CFB /* WFYCityWeather */ = {
+			isa = PBXGroup;
+			children = (
+				51FE72486A1A99F1803B6B70 /* Assembly */,
+				0FCC54F038005EC9E7F065C2 /* View */,
+				F3EA6E0DD2F80CE26A29C332 /* Presenter */,
+				70513A0F66A33A0822B59845 /* Interactor */,
+				BEE3B50671096E14B5844EF8 /* Router */,
+			);
+			path = WFYCityWeather;
+			sourceTree = "<group>";
+		};
+		517EA7D938B807883D550653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4317C6717684D9EB2097A567 /* Pods.debug.xcconfig */,
+				493BBC5BAFDD27B45B2F0633 /* Pods.release.xcconfig */,
+				AAECA2EE5B1D81D10DC3082D /* Pods-WeatherForYouTests.debug.xcconfig */,
+				F08B600736D51539BF38DD29 /* Pods-WeatherForYouTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51FE72486A1A99F1803B6B70 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				71BBBC08D340CA17DD4C610C /* WFYCityWeatherAssemblyTests.m */,
+				1E7C9D0DB97C77AF94E93C26 /* WFYCityWeatherAssembly_Testable.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		636D9DBCA4DCD859FDABA672 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4838BFFFA03711B46C152C3D /* WFYChooseCityRouterTests.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		70513A0F66A33A0822B59845 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8A1970236CD2068337A8DD09 /* WFYCityWeatherInteractorTests.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		78E7194EE59E8C77ED7B645F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F8211D55B127000B0885 /* CoreLocation.framework */,
+				C6D8AC9C3FE7E208FE65A6DE /* libPods.a */,
+				94DAAB36ACA09305B58FB116 /* libPods-WeatherForYouTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		800F9AFE94205AE37BE69053 /* WFYChooseCity */ = {
+			isa = PBXGroup;
+			children = (
+				A15B23895D740BD3165ADF2A /* Assembly */,
+				3B618CAD7C7BA0AD79345116 /* View */,
+				D771413F35357CAD720C6865 /* Presenter */,
+				BEC9924FD0CB81ABC3565EB5 /* Interactor */,
+				636D9DBCA4DCD859FDABA672 /* Router */,
+			);
+			path = WFYChooseCity;
+			sourceTree = "<group>";
+		};
+		A15B23895D740BD3165ADF2A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				F5CFB75A9E76A6D24301E592 /* WFYChooseCityAssemblyTests.m */,
+				5FBB406EBB0D5B8A89BB9958 /* WFYChooseCityAssembly_Testable.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A7E179365A83891379425217 /* WFYChooseCity */ = {
+			isa = PBXGroup;
+			children = (
+				06A4B44610F7F828B9CCDBF0 /* Assembly */,
+				F8B3F67995E270DE252AFB7E /* View */,
+				F5ACAAA74B442D3D8A218D0C /* Presenter */,
+				AE017E333035A77924A501EB /* Interactor */,
+				ACD4434A71208DF448CC2D26 /* Router */,
+			);
+			path = WFYChooseCity;
+			sourceTree = "<group>";
+		};
+		ACD4434A71208DF448CC2D26 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C95FCDB40DB2CE4CF01A3 /* WFYChooseCityRouterInput.h */,
+				6F22ED702E4950AD1AE8D86D /* WFYChooseCityRouter.h */,
+				A086B5329C78AE955280478C /* WFYChooseCityRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AE017E333035A77924A501EB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8D2AAE55B42FC21354D9B /* WFYChooseCityInteractorInput.h */,
+				8831E82E3BE9832B6474E79A /* WFYChooseCityInteractorOutput.h */,
+				A8BD51DB3B8203F53972DE2C /* WFYChooseCityInteractor.h */,
+				42662DC2207BA138E9968CB5 /* WFYChooseCityInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BEC9924FD0CB81ABC3565EB5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0F602DBB02E9864D20A612E1 /* WFYChooseCityInteractorTests.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BEE3B50671096E14B5844EF8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				41D7D89633B64C15B207D50D /* WFYCityWeatherRouterTests.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D771413F35357CAD720C6865 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F867A528DF98D91FE884DBC2 /* WFYChooseCityPresenterTests.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		EB44F7781D55953E000B0885 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +426,8 @@
 				EB44F7A31D55953E000B0885 /* WeatherForYouTests */,
 				EB44F7AE1D55953E000B0885 /* WeatherForYouUITests */,
 				EB44F7821D55953E000B0885 /* Products */,
+				517EA7D938B807883D550653 /* Pods */,
+				78E7194EE59E8C77ED7B645F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +444,18 @@
 		EB44F7831D55953E000B0885 /* WeatherForYou */ = {
 			isa = PBXGroup;
 			children = (
+				EB44F7BD1D559A26000B0885 /* AssemblyHelpers */,
+				EB44F7C41D559A26000B0885 /* Helpers */,
+				EB44F7E31D559A26000B0885 /* Models */,
+				EB44F85F1D560BC0000B0885 /* cells */,
+				EB44F7E41D559A26000B0885 /* modules */,
+				EB44F7FB1D559A26000B0885 /* Services */,
+				EB44F8101D559C13000B0885 /* ApplycationAssembly.h */,
+				EB44F8111D559C13000B0885 /* ApplycationAssembly.m */,
 				EB44F7871D55953E000B0885 /* AppDelegate.h */,
 				EB44F7881D55953E000B0885 /* AppDelegate.m */,
-				EB44F78D1D55953E000B0885 /* MasterViewController.h */,
-				EB44F78E1D55953E000B0885 /* MasterViewController.m */,
-				EB44F7901D55953E000B0885 /* DetailViewController.h */,
-				EB44F7911D55953E000B0885 /* DetailViewController.m */,
 				EB44F7931D55953E000B0885 /* Main.storyboard */,
 				EB44F7961D55953E000B0885 /* Assets.xcassets */,
-				EB44F7981D55953E000B0885 /* LaunchScreen.storyboard */,
 				EB44F79B1D55953E000B0885 /* Info.plist */,
 				EB44F78A1D55953E000B0885 /* WeatherForYou.xcdatamodeld */,
 				EB44F7841D55953E000B0885 /* Supporting Files */,
@@ -125,6 +466,10 @@
 		EB44F7841D55953E000B0885 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB44F81A1D55A300000B0885 /* ru.lproj */,
+				EB44F8171D55A2F8000B0885 /* Localizable.strings */,
+				EB44F8131D559CAD000B0885 /* WeatherForYou-Prefix.pch */,
+				EB44F7981D55953E000B0885 /* LaunchScreen.storyboard */,
 				EB44F7851D55953E000B0885 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,6 +480,8 @@
 			children = (
 				EB44F7A41D55953E000B0885 /* WeatherForYouTests.m */,
 				EB44F7A61D55953E000B0885 /* Info.plist */,
+				4FDC05D4572B08FD5BC98CFB /* WFYCityWeather */,
+				800F9AFE94205AE37BE69053 /* WFYChooseCity */,
 			);
 			path = WeatherForYouTests;
 			sourceTree = "<group>";
@@ -148,6 +495,231 @@
 			path = WeatherForYouUITests;
 			sourceTree = "<group>";
 		};
+		EB44F7BD1D559A26000B0885 /* AssemblyHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7BE1D559A26000B0885 /* BaseModuleAssembly.h */,
+				EB44F7BF1D559A26000B0885 /* BaseModuleAssembly.m */,
+				EB44F7C01D559A26000B0885 /* BasePresenterAssembly.h */,
+				EB44F7C11D559A26000B0885 /* BasePresenterAssembly.m */,
+				EB44F7C21D559A26000B0885 /* ServicesAssembly.h */,
+				EB44F7C31D559A26000B0885 /* ServicesAssembly.m */,
+				EB44F8141D559F66000B0885 /* BasePresenter.h */,
+				EB44F8151D559F66000B0885 /* BasePresenter.m */,
+			);
+			path = AssemblyHelpers;
+			sourceTree = "<group>";
+		};
+		EB44F7C41D559A26000B0885 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7D11D559A26000B0885 /* Macros */,
+				EB44F85C1D560325000B0885 /* NSDate+Utilities.h */,
+				EB44F85D1D560325000B0885 /* NSDate+Utilities.m */,
+				EB44F7C51D559A26000B0885 /* AppErrors.h */,
+				EB44F7C61D559A26000B0885 /* AppErrors.m */,
+				EB44F7C71D559A26000B0885 /* appSettings.h */,
+				EB44F7C81D559A26000B0885 /* appSettings.m */,
+				EB44F7C91D559A26000B0885 /* ARCommon.h */,
+				EB44F7CA1D559A26000B0885 /* ARCommon.m */,
+				EB44F7CB1D559A26000B0885 /* Functions.h */,
+				EB44F7CC1D559A26000B0885 /* Functions.m */,
+				EB44F7CD1D559A26000B0885 /* localizationService.h */,
+				EB44F7CE1D559A26000B0885 /* localizationService.m */,
+				EB44F7CF1D559A26000B0885 /* logService.h */,
+				EB44F7D01D559A26000B0885 /* logService.m */,
+				EB44F7D61D559A26000B0885 /* popupMessageHelper.h */,
+				EB44F7D71D559A26000B0885 /* popupMessageHelper.m */,
+				EB44F7D81D559A26000B0885 /* popupMessageProtocol.h */,
+				EB44F7DC1D559A26000B0885 /* UIFabric.h */,
+				EB44F7DD1D559A26000B0885 /* UIFabric.m */,
+				EB44F7DE1D559A26000B0885 /* waitBarHelper.h */,
+				EB44F7DF1D559A26000B0885 /* waitBarHelper.m */,
+				EB44F7E01D559A26000B0885 /* waitBarProtocol.h */,
+				EB44F7E11D559A26000B0885 /* WFYApiHelper.h */,
+				EB44F7E21D559A26000B0885 /* WFYApiHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EB44F7D11D559A26000B0885 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7D21D559A26000B0885 /* EXTScope */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		EB44F7D21D559A26000B0885 /* EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7D31D559A26000B0885 /* EXTScope.h */,
+				EB44F7D41D559A26000B0885 /* EXTScope.m */,
+				EB44F7D51D559A26000B0885 /* metamacros.h */,
+			);
+			path = EXTScope;
+			sourceTree = "<group>";
+		};
+		EB44F7E31D559A26000B0885 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F8291D55C2A6000B0885 /* MeasurementPoint+CoreDataProperties.h */,
+				EB44F82A1D55C2A7000B0885 /* MeasurementPoint+CoreDataProperties.m */,
+				EB44F82B1D55C2A7000B0885 /* MeasurementPoint.h */,
+				EB44F82C1D55C2A7000B0885 /* MeasurementPoint.m */,
+				EB44F82D1D55C2A7000B0885 /* City+CoreDataProperties.h */,
+				EB44F82E1D55C2A7000B0885 /* City+CoreDataProperties.m */,
+				EB44F82F1D55C2A7000B0885 /* City.h */,
+				EB44F8301D55C2A7000B0885 /* City.m */,
+				EB44F8661D564777000B0885 /* CurrentWeather.h */,
+				EB44F8671D564777000B0885 /* CurrentWeather.m */,
+				EB44F8681D564777000B0885 /* CurrentWeather+CoreDataProperties.h */,
+				EB44F8691D564777000B0885 /* CurrentWeather+CoreDataProperties.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB44F7E41D559A26000B0885 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F83B1D55CFF7000B0885 /* WFYCityWeather */,
+				A7E179365A83891379425217 /* WFYChooseCity */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		EB44F7FB1D559A26000B0885 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F81E1D55A6D3000B0885 /* GeoLocationService.h */,
+				EB44F81F1D55A6D3000B0885 /* GeoLocationService.m */,
+				EB44F8231D55B7D8000B0885 /* WheatherDBService.h */,
+				EB44F8241D55B7D8000B0885 /* WheatherDBService.m */,
+				EB44F8261D55B911000B0885 /* WeatherDeamon.h */,
+				EB44F8271D55B911000B0885 /* WeatherDeamon.m */,
+				EB44F8561D55E5C5000B0885 /* WeatherDataService.h */,
+				EB44F8571D55E5C5000B0885 /* WeatherDataService.m */,
+				EB44F86C1D5664BD000B0885 /* ImageStorageService.h */,
+				EB44F86D1D5664BD000B0885 /* ImageStorageService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB44F81A1D55A300000B0885 /* ru.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F81B1D55A300000B0885 /* Localizable.strings */,
+			);
+			path = ru.lproj;
+			sourceTree = "<group>";
+		};
+		EB44F83B1D55CFF7000B0885 /* WFYCityWeather */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F83C1D55CFF7000B0885 /* Assembly */,
+				EB44F84C1D55CFF7000B0885 /* View */,
+				EB44F8441D55CFF7000B0885 /* Presenter */,
+				EB44F83F1D55CFF7000B0885 /* Interactor */,
+				EB44F8481D55CFF7000B0885 /* Router */,
+			);
+			path = WFYCityWeather;
+			sourceTree = "<group>";
+		};
+		EB44F83C1D55CFF7000B0885 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F83D1D55CFF7000B0885 /* WFYCityWeatherAssembly.h */,
+				EB44F83E1D55CFF7000B0885 /* WFYCityWeatherAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EB44F83F1D55CFF7000B0885 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F8401D55CFF7000B0885 /* WFYCityWeatherInteractor.h */,
+				EB44F8411D55CFF7000B0885 /* WFYCityWeatherInteractor.m */,
+				EB44F8421D55CFF7000B0885 /* WFYCityWeatherInteractorInput.h */,
+				EB44F8431D55CFF7000B0885 /* WFYCityWeatherInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EB44F8441D55CFF7000B0885 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F8451D55CFF7000B0885 /* WFYCityWeatherModuleInput.h */,
+				EB44F8461D55CFF7000B0885 /* WFYCityWeatherPresenter.h */,
+				EB44F8471D55CFF7000B0885 /* WFYCityWeatherPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EB44F8481D55CFF7000B0885 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F8491D55CFF7000B0885 /* WFYCityWeatherRouter.h */,
+				EB44F84A1D55CFF7000B0885 /* WFYCityWeatherRouter.m */,
+				EB44F84B1D55CFF7000B0885 /* WFYCityWeatherRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EB44F84C1D55CFF7000B0885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F84D1D55CFF7000B0885 /* WFYCityWeatherViewController.h */,
+				EB44F84E1D55CFF7000B0885 /* WFYCityWeatherViewController.m */,
+				EB44F84F1D55CFF7000B0885 /* WFYCityWeatherViewInput.h */,
+				EB44F8501D55CFF7000B0885 /* WFYCityWeatherViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB44F85F1D560BC0000B0885 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				B212F98EB475F82AE5549763 /* WFYChooseCityCellPresenter.h */,
+				EF3FCB20B6FCF68DDA164609 /* WFYChooseCityCellPresenter.m */,
+				BA7279CF42FCF8FB554F3CBE /* WFYChooseCityTableViewCell.h */,
+				583DC9CDADBF267F9FA77935 /* WFYChooseCityTableViewCell.m */,
+				EB44F8601D560BE1000B0885 /* WFYMeasurementCell.h */,
+				EB44F8611D560BE1000B0885 /* WFYMeasurementCell.m */,
+				EB44F8631D560BF1000B0885 /* WFYMeasurementCellPresenter.h */,
+				EB44F8641D560BF1000B0885 /* WFYMeasurementCellPresenter.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		F3EA6E0DD2F80CE26A29C332 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				176EA90721D35E940AB6DA86 /* WFYCityWeatherPresenterTests.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F5ACAAA74B442D3D8A218D0C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F07DABB32AB6F1B482DAC1FF /* WFYChooseCityModuleInput.h */,
+				9B7F4F870FA8077112FC700D /* WFYChooseCityPresenter.h */,
+				1D2AE44091C493C160258C1A /* WFYChooseCityPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F8B3F67995E270DE252AFB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE3CECFFDD5AA0C1136859 /* WFYChooseCityViewInput.h */,
+				8AEFD4C0B8298B74B30AE2F9 /* WFYChooseCityViewOutput.h */,
+				7E060E9AB30002B6B691AEF6 /* WFYChooseCityViewController.h */,
+				86D6D25FCA85CAB75D3807ED /* WFYChooseCityViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +727,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB44F7B41D55953E000B0885 /* Build configuration list for PBXNativeTarget "WeatherForYou" */;
 			buildPhases = (
+				1CD44D4F03FD5770A28CCCBD /* Check Pods Manifest.lock */,
 				EB44F77D1D55953E000B0885 /* Sources */,
 				EB44F77E1D55953E000B0885 /* Frameworks */,
 				EB44F77F1D55953E000B0885 /* Resources */,
+				03E62FEB873F306E97C01195 /* Embed Pods Frameworks */,
+				E6FD464AB2CFE88E9662638B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +747,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB44F7B71D55953E000B0885 /* Build configuration list for PBXNativeTarget "WeatherForYouTests" */;
 			buildPhases = (
+				2465962E3B60091667701D3F /* Check Pods Manifest.lock */,
 				EB44F79C1D55953E000B0885 /* Sources */,
 				EB44F79D1D55953E000B0885 /* Frameworks */,
 				EB44F79E1D55953E000B0885 /* Resources */,
+				0DF80E233289AE8F8EE6BFBF /* Embed Pods Frameworks */,
+				815A33320E5981EA3A28FC5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +793,7 @@
 				TargetAttributes = {
 					EB44F7801D55953E000B0885 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = STZB53GU8R;
 					};
 					EB44F79F1D55953E000B0885 = {
 						CreatedOnToolsVersion = 7.3;
@@ -233,6 +812,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = EB44F7781D55953E000B0885;
 			productRefGroup = EB44F7821D55953E000B0885 /* Products */;
@@ -251,7 +831,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB44F81D1D55A300000B0885 /* Localizable.strings in Resources */,
 				EB44F79A1D55953E000B0885 /* LaunchScreen.storyboard in Resources */,
+				EB44F8191D55A2F8000B0885 /* Localizable.strings in Resources */,
 				EB44F7971D55953E000B0885 /* Assets.xcassets in Resources */,
 				EB44F7951D55953E000B0885 /* Main.storyboard in Resources */,
 			);
@@ -273,16 +855,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03E62FEB873F306E97C01195 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DF80E233289AE8F8EE6BFBF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherForYouTests/Pods-WeatherForYouTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD44D4F03FD5770A28CCCBD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2465962E3B60091667701D3F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		815A33320E5981EA3A28FC5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherForYouTests/Pods-WeatherForYouTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6FD464AB2CFE88E9662638B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB44F77D1D55953E000B0885 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB44F7921D55953E000B0885 /* DetailViewController.m in Sources */,
-				EB44F78F1D55953E000B0885 /* MasterViewController.m in Sources */,
+				EB44F8371D55C2A7000B0885 /* City+CoreDataProperties.m in Sources */,
+				EB44F8051D559A26000B0885 /* EXTScope.m in Sources */,
+				EB44F8201D55A6D3000B0885 /* GeoLocationService.m in Sources */,
+				EB44F7FE1D559A26000B0885 /* ServicesAssembly.m in Sources */,
+				EB44F8011D559A26000B0885 /* ARCommon.m in Sources */,
+				EB44F8251D55B7D8000B0885 /* WheatherDBService.m in Sources */,
+				EB44F7FC1D559A26000B0885 /* BaseModuleAssembly.m in Sources */,
 				EB44F78C1D55953E000B0885 /* WeatherForYou.xcdatamodeld in Sources */,
+				EB44F8281D55B911000B0885 /* WeatherDeamon.m in Sources */,
 				EB44F7891D55953E000B0885 /* AppDelegate.m in Sources */,
 				EB44F7861D55953E000B0885 /* main.m in Sources */,
+				EB44F8361D55C2A7000B0885 /* MeasurementPoint.m in Sources */,
+				EB44F8031D559A26000B0885 /* localizationService.m in Sources */,
+				EB44F8121D559C13000B0885 /* ApplycationAssembly.m in Sources */,
+				EB44F8521D55CFF7000B0885 /* WFYCityWeatherInteractor.m in Sources */,
+				EB44F8511D55CFF7000B0885 /* WFYCityWeatherAssembly.m in Sources */,
+				EB44F86B1D564777000B0885 /* CurrentWeather+CoreDataProperties.m in Sources */,
+				EB44F8541D55CFF7000B0885 /* WFYCityWeatherRouter.m in Sources */,
+				EB44F8551D55CFF7000B0885 /* WFYCityWeatherViewController.m in Sources */,
+				EB44F8621D560BE1000B0885 /* WFYMeasurementCell.m in Sources */,
+				EB44F8041D559A26000B0885 /* logService.m in Sources */,
+				EB44F8381D55C2A7000B0885 /* City.m in Sources */,
+				EB44F8351D55C2A7000B0885 /* MeasurementPoint+CoreDataProperties.m in Sources */,
+				EB44F8531D55CFF7000B0885 /* WFYCityWeatherPresenter.m in Sources */,
+				EB44F8091D559A26000B0885 /* waitBarHelper.m in Sources */,
+				EB44F80A1D559A26000B0885 /* WFYApiHelper.m in Sources */,
+				EB44F8081D559A26000B0885 /* UIFabric.m in Sources */,
+				EB44F8651D560BF1000B0885 /* WFYMeasurementCellPresenter.m in Sources */,
+				EB44F8061D559A26000B0885 /* popupMessageHelper.m in Sources */,
+				EB44F8001D559A26000B0885 /* appSettings.m in Sources */,
+				EB44F7FF1D559A26000B0885 /* AppErrors.m in Sources */,
+				EB44F7FD1D559A26000B0885 /* BasePresenterAssembly.m in Sources */,
+				EB44F8161D559F66000B0885 /* BasePresenter.m in Sources */,
+				EB44F8581D55E5C5000B0885 /* WeatherDataService.m in Sources */,
+				EB44F8021D559A26000B0885 /* Functions.m in Sources */,
+				EB44F85E1D560325000B0885 /* NSDate+Utilities.m in Sources */,
+				DC505D31C50FA159A3369F59 /* WFYChooseCityAssembly.m in Sources */,
+				97F0165D23B660A06309F595 /* WFYChooseCityViewController.m in Sources */,
+				EB44F86E1D5664BD000B0885 /* ImageStorageService.m in Sources */,
+				F6432BA30002ADA2854CEAC2 /* WFYChooseCityTableViewCell.m in Sources */,
+				56651914BA062432203C3100 /* WFYChooseCityPresenter.m in Sources */,
+				B496ED3A328A8F11B22CFBC7 /* WFYChooseCityCellPresenter.m in Sources */,
+				CC73E385E81F51AAA5056CFF /* WFYChooseCityInteractor.m in Sources */,
+				EB44F86A1D564777000B0885 /* CurrentWeather.m in Sources */,
+				52BA1B0A94F46A11740517AD /* WFYChooseCityRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +1006,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB44F7A51D55953E000B0885 /* WeatherForYouTests.m in Sources */,
+				84A25F037E180C8D0B3E67B9 /* WFYCityWeatherAssemblyTests.m in Sources */,
+				85CAE7ED4D5AA3ECE1EAAF6B /* WFYCityWeatherViewControllerTests.m in Sources */,
+				A5AA724743D327499B94046C /* WFYCityWeatherPresenterTests.m in Sources */,
+				E1AF1D1C587509A9645E3533 /* WFYCityWeatherInteractorTests.m in Sources */,
+				4171A266C4B5F840E99B8E19 /* WFYCityWeatherRouterTests.m in Sources */,
+				E211006E2A7A92B932D0F799 /* WFYChooseCityAssemblyTests.m in Sources */,
+				3DD46FFC9D92D82F04D2B253 /* WFYChooseCityViewControllerTests.m in Sources */,
+				499148E76841927A990331BD /* WFYChooseCityPresenterTests.m in Sources */,
+				653C425B50BA6C374D2C2F52 /* WFYChooseCityInteractorTests.m in Sources */,
+				6533E9A5BF73D53D7B5EF1E3 /* WFYChooseCityRouterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +1057,22 @@
 				EB44F7991D55953E000B0885 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB44F8171D55A2F8000B0885 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB44F8181D55A2F8000B0885 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EB44F81B1D55A300000B0885 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB44F81C1D55A300000B0885 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,9 +1164,14 @@
 		};
 		EB44F7B51D55953E000B0885 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4317C6717684D9EB2097A567 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "WeatherForYou/WeatherForYou-Prefix.pch";
 				INFOPLIST_FILE = WeatherForYou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoCompany.WeatherForYou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,9 +1180,14 @@
 		};
 		EB44F7B61D55953E000B0885 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493BBC5BAFDD27B45B2F0633 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "WeatherForYou/WeatherForYou-Prefix.pch";
 				INFOPLIST_FILE = WeatherForYou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoCompany.WeatherForYou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +1196,7 @@
 		};
 		EB44F7B81D55953E000B0885 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAECA2EE5B1D81D10DC3082D /* Pods-WeatherForYouTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeatherForYouTests/Info.plist;
@@ -457,6 +1209,7 @@
 		};
 		EB44F7B91D55953E000B0885 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08B600736D51539BF38DD29 /* Pods-WeatherForYouTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeatherForYouTests/Info.plist;
@@ -508,6 +1261,7 @@
 				EB44F7B61D55953E000B0885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB44F7B71D55953E000B0885 /* Build configuration list for PBXNativeTarget "WeatherForYouTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +1270,7 @@
 				EB44F7B91D55953E000B0885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB44F7BA1D55953E000B0885 /* Build configuration list for PBXNativeTarget "WeatherForYouUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +1279,7 @@
 				EB44F7BC1D55953E000B0885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

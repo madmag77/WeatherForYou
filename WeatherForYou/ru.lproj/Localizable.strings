@@ -1,0 +1,17 @@
+
+
+"WFYCityWeatherTitle" = "Текущее местоположение";
+"london" = "Лондон";
+"tokyo" = "Токио";
+"nyc" = "Нью-Йорк";
+"moscow" = "Москва";
+
+"current" = "Текущее местоположение";
+"today" = "Прямо сейчас:";
+"coordinates" = "Координаты:";
+"tomorrow" = "Завтра";
+"afterTomorrow" = "Послезавтра";
+"WFYChooseCityTitle" = "Выберите город";
+"geoError" = "Ошибка получения геопозиции";
+"chooseCityToAdd" = "Выберите город для добавления в список";
+"delete" = "Удалить";

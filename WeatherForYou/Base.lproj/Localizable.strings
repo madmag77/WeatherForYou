@@ -1,0 +1,17 @@
+
+
+"WFYCityWeatherTitle" = "Current geo-position";
+"london" = "London";
+"tokyo" = "Tokyo";
+"nyc" = "New York City";
+"moscow" = "Moscow";
+
+"current" = "Current geo-position";
+"today" = "At the moment:";
+"coordinates" = "Coordinates:";
+"tomorrow" = "Tomorrow";
+"afterTomorrow" = "The day after tomorrow";
+"WFYChooseCityTitle" = "Choose a city";
+"geoError" = "Geolocation error";
+"chooseCityToAdd" = "Choose city to add to the list";
+"delete" = "Delete";

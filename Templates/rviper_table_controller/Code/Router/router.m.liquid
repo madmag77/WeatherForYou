@@ -1,0 +1,15 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Router.h"
+
+//#import <ViperMcFlurry/ViperMcFlurry.h>
+#import "ViperMcFlurry.h"
+
+@implementation {{ prefix }}{{ module_info.name }}Router
+
+#pragma mark - Методы {{ prefix }}{{ module_info.name }}RouterInput
+-(void)goBack {
+    [self.transitionHandler closeCurrentModule];
+}
+
+@end

@@ -1,0 +1,36 @@
+### Headers settings
+company: DemoCompany
+
+### Xcode project settings
+project_name: WeatherForYou
+xcodeproj_path: WeatherForYou.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: WeatherForYou
+
+# The file path for new modules
+project_file_path: WeatherForYou/modules
+
+# The Xcode group path to new modules
+project_group_path: WeatherForYou/modules
+
+### Tests generation settings section
+# The tests target name
+test_target: WeatherForYouTests
+
+# The file path for new tests
+test_file_path: WeatherForYouTests
+
+# The Xcode group path to new tests
+test_group_path: WeatherForYouTests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/rambler-ios/generamba-catalog'
+templates:
+- {name: rviper_controller}
+- {name: rviper_table_controller}
